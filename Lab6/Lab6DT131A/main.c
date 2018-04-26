@@ -25,6 +25,7 @@ int main(void)
 	//Set port D as output for LED
 	DDRB = 0xFF;
 	initializeADC();
+	sei();
     while (1) 
     {
 		convertToDigital();
@@ -64,6 +65,9 @@ int main(void)
 		
 		
     }
+	
+	cli();
+	return 0;
 }
 
 
