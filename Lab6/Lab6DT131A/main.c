@@ -66,7 +66,7 @@ int main(void)
 		
     }
 	
-	cli();
+	
 	return 0;
 }
 
