@@ -37,7 +37,7 @@ SUBDIRS :=
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS +=  \
-../main.c
+../PWM.c
 
 
 PREPROCESSING_SRCS += 
@@ -47,16 +47,16 @@ ASM_SRCS +=
 
 
 OBJS +=  \
-main.o
+PWM.o
 
 OBJS_AS_ARGS +=  \
-main.o
+PWM.o
 
 C_DEPS +=  \
-main.d
+PWM.d
 
 C_DEPS_AS_ARGS +=  \
-main.d
+PWM.d
 
 OUTPUT_FILE_PATH +=Lab6DT131A.elf
 
